@@ -2,8 +2,7 @@
   <div class="login-container">
     <el-form class="login-form" autoComplete="on" :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left">
       <div class="title-container">
-        <h3 class="title">{{$t('login.title')}}</h3>
-        <lang-select class="set-language"></lang-select>
+        <h3 class="title">系统登录</h3>
       </div>
       <el-form-item prop="username">
         <span class="svg-container svg-container_login">
@@ -11,7 +10,6 @@
         </span>
         <el-input name="username" type="text" v-model="loginForm.username" autoComplete="on" placeholder="username" />
       </el-form-item>
-
       <el-form-item prop="password">
         <span class="svg-container">
           <svg-icon icon-class="password" />
@@ -21,29 +19,22 @@
           <svg-icon icon-class="eye" />
         </span>
       </el-form-item>
-
-      <el-button type="primary" style="width:100%;margin-bottom:30px;" :loading="loading" @click.native.prevent="handleLogin">{{$t('login.logIn')}}</el-button>
-
+      <el-button type="primary" style="width:100%;margin-bottom:30px;" v-bind:loading="loading" @click.native.prevent="handleLogin">登录</el-button>
       <div class="tips">
-        <span>{{$t('login.username')}} : admin</span>
-        <span>{{$t('login.password')}} : {{$t('login.any')}}</span>
+        <span>登录名 : admin/editor</span>
+        <span>登录密码 : 任意值</span>
       </div>
       <div class="tips">
-        <span style="margin-right:18px;">{{$t('login.username')}} : editor</span>
-        <span>{{$t('login.password')}} : {{$t('login.any')}}</span>
+        <el-button class="thirdparty-button" type="primary" @click="showDialog=true">第三方登录</el-button>
       </div>
 
-      <el-button class="thirdparty-button" type="primary" @click="showDialog=true">{{$t('login.thirdparty')}}</el-button>
     </el-form>
 
     <el-dialog :title="$t('login.thirdparty')" :visible.sync="showDialog">
-      {{$t('login.thirdpartyTips')}}
-      <br/>
-      <br/>
+      请使用第三方账号登录提示！！！
       <br/>
       <social-sign />
     </el-dialog>
-
   </div>
 </template>
 
@@ -51,7 +42,6 @@
 import { isvalidUsername } from '@/utils/validate'
 import LangSelect from '@/components/LangSelect'
 import SocialSign from './socialsignin'
-
 export default {
   components: { LangSelect, SocialSign },
   name: 'login',
@@ -73,7 +63,7 @@ export default {
     return {
       loginForm: {
         username: 'admin',
-        password: '1111111'
+        password: 'admin123'
       },
       loginRules: {
         username: [{ required: true, trigger: 'blur', validator: validateUsername }],
