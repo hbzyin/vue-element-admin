@@ -12,10 +12,10 @@
 	<a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
 		<img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
 	</a>
-	<a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
+	<a href="https://github.com/hbzyin/web-admin//blob/master/LICENSE">
 		<img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
 	</a>
-	<a href="https://github.com/PanJiaChen/vue-element-admin/releases">
+	<a href="https://github.com/hbzyin/web-admin//releases">
 		<img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
 	</a>
 </p>
@@ -30,7 +30,7 @@ English | [简体中文](./README.zh-CN.md)
 
 - [Documentation](https://panjiachen.github.io/vue-element-admin-site/#/)
 
-- [wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
+- [wiki](https://github.com/hbzyin/web-admin//wiki)
 
 - [donate](https://panjiachen.github.io/vue-element-admin-site/#/donate)
 
@@ -95,7 +95,7 @@ You need to install [node](http://nodejs.org/) and [git](https://git-scm.com/) l
 
 ```bash
 # clone the projice
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/hbzyin/web-admin/.git
 
 # install dependency
 npm install
@@ -133,7 +133,7 @@ npm run lint -- --fix
 Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/#/deploy) for more information
 
 ## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/hbzyin/web-admin//releases).
 
 ## Online Demo
 [Preview](http://panjiachen.github.io/vue-element-admin)
@@ -147,6 +147,6 @@ If you find this project useful, you can buy author a glass of juice :tropical_d
 
 ## License
 
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
+[MIT](https://github.com/hbzyin/web-admin//blob/master/LICENSE)
 
 Copyright (c) 2017-present PanJiaChen

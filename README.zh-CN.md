@@ -12,10 +12,10 @@
 	<a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
 		<img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
 	</a>
-	<a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
+	<a href="https://github.com/hbzyin/web-admin//blob/master/LICENSE">
 		<img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
 	</a>
-	<a href="https://github.com/PanJiaChen/vue-element-admin/releases">
+	<a href="https://github.com/hbzyin/web-admin//releases">
 		<img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
 	</a>
 </p>
@@ -30,7 +30,7 @@
 
 - [使用文档](https://panjiachen.github.io/vue-element-admin-site/#/)
 
-- [wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
+- [wiki](https://github.com/hbzyin/web-admin//wiki)
 
 - [donate](https://panjiachen.github.io/vue-element-admin-site/#/donate)
 
@@ -60,7 +60,7 @@
 
  **本项目并不是一个脚手架，更倾向于是一个集成解决方案**
 
- **该项目不支持低版本浏览器(如ie)，有需求请自行添加polyfill [详情](https://github.com/PanJiaChen/vue-element-admin/wiki#babel-polyfill)**
+ **该项目不支持低版本浏览器(如ie)，有需求请自行添加polyfill [详情](https://github.com/hbzyin/web-admin//wiki#babel-polyfill)**
 
  <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
@@ -107,7 +107,7 @@
 ## 开发
 ```bash
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/hbzyin/web-admin/.git
 
 # 安装依赖
 npm install
@@ -147,7 +147,7 @@ npm run lint -- --fix
 更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/#/deploy)
 
 ## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
+Detailed changes for each release are documented in the [release notes](https://github.com/hbzyin/web-admin//releases).
 
 ## Online Demo
 [在线 Demo](http://panjiachen.github.io/vue-element-admin)
@@ -160,6 +160,6 @@ Detailed changes for each release are documented in the [release notes](https://
 
 ## License
 
-[MIT](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
+[MIT](https://github.com/hbzyin/web-admin//blob/master/LICENSE)
 
 Copyright (c) 2017-present PanJiaChen
